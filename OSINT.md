@@ -4,12 +4,12 @@
 - **Author**: [Akshitha]
 
 ## Challenge Description
-Some notes were left behind, look deeper and you will find what is yours.
+Why wont the gate open?
 
 ## Solution
 
 ### Initial Analysis
-Look at easy potential web exploits to use 
+The riddle and its relation with the given blocks.
 
 ### Tools Used
 - Pyhton
@@ -17,24 +17,25 @@ Look at easy potential web exploits to use
 
 ### Step-by-Step Solution
 
-#### Step 1: Login page
+#### Step 1: Read the riddle
    
-   <img width="940" height="400" alt="image" src="https://github.com/user-attachments/assets/fc04b343-df27-4891-9efb-36f9a14a22c7" />
+ <img width="886" height="489" alt="image" src="https://github.com/user-attachments/assets/b8c211ed-bae0-4945-849d-75e149803a98" />
+
 
  
-#### Step 2:	Inspect and get credentials
+#### Step 2:	Rearrange the words
 
-<img width="940" height="283" alt="image" src="https://github.com/user-attachments/assets/38cbb7c8-4a20-4dd4-9702-54b093805560" />
+<img width="940" height="438" alt="image" src="https://github.com/user-attachments/assets/293f09a3-c972-4202-8870-d2d3add36e49" />
 
-#### Step 3 :XSS payload in notes page to get flag
-<img width="940" height="462" alt="image" src="https://github.com/user-attachments/assets/f16cc1d7-466f-40a0-8489-26a3804c963f" />
 
- #### Step 4:	Flag found
- <img width="940" height="364" alt="image" src="https://github.com/user-attachments/assets/3b4683ab-a02e-44ce-968b-2b646105436c" />
+#### Step 3 :Submit and get the flag
+
+<img width="940" height="429" alt="image" src="https://github.com/user-attachments/assets/65233667-a519-4ba3-a238-d7eba2bfbf54" />
+
 
  
 
 ### Flag
 ```
-CYS{sneaky_notes_xss}
+CYS{EON_REALIGNED}
 ```
